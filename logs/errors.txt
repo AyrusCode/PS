@@ -1,0 +1,17 @@
+
+TypeError: Cannot read property 'rank' of undefined
+    at Object.exports.commands.promote (/Users/Surya.Pandiaraju/Desktop/Pokemon-Showdown/commands.js:990:66)
+    at Object.exports.parse (/Users/Surya.Pandiaraju/Desktop/Pokemon-Showdown/command-parser.js:346:28)
+    at Room.chat (/Users/Surya.Pandiaraju/Desktop/Pokemon-Showdown/rooms.js:84:27)
+    at User.chat (/Users/Surya.Pandiaraju/Desktop/Pokemon-Showdown/users.js:1510:9)
+    at Function.Users.socketReceive (/Users/Surya.Pandiaraju/Desktop/Pokemon-Showdown/users.js:361:12)
+    at Worker.<anonymous> (/Users/Surya.Pandiaraju/Desktop/Pokemon-Showdown/sockets.js:45:11)
+    at Worker.emit (events.js:110:17)
+    at ChildProcess.emit (events.js:110:17)
+    at handleMessage (child_process.js:324:10)
+    at Pipe.channel.onread (child_process.js:352:11)
+
+Additional information:
+user = JellalFernandes
+room = lobby
+message = /promote Jellal
