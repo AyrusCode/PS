@@ -187,15 +187,15 @@ exports.appealurl = '';
 exports.groupsranking = ['\u262D', '+', '%', '@', '\u2605', '#', '&', '~'];
 exports.groups = {
 	'~': {
-		id: "god",
-		name: "God",
+		id: "GOD",
+		name: "GOD",
 		root: true,
 		globalonly: true,
 		rank: 7
 	},
 	'&': {
-		id: "Pleb army Leader",
-		name: "Pleb army Leader",
+		id: "High Angel",
+		name: "High Angel",
 		inherit: '@',
 		jurisdiction: '@u',
 		promote: 'u',
@@ -210,7 +210,7 @@ exports.groups = {
 		rank: 6
 	},
 	'#': {
-		id: "Head Pleb",
+		id: "Chief Pleb",
 		name: "Head Pleb",
 		inherit: '@',
 		jurisdiction: 'u',
@@ -233,8 +233,8 @@ exports.groups = {
 		rank: 4
 	},
 	'@': {
-		id: "normal",
-		name: "normal",
+		id: "not a pleb",
+		name: "not a pleb",
 		inherit: '%',
 		jurisdiction: 'u',
 		ban: true,
@@ -247,8 +247,8 @@ exports.groups = {
 		rank: 3
 	},
 	'%': {
-		id: "not a pleb",
-		name: "not a pleb",
+		id: "somewhat a pleb",
+		name: "somewhat a pleb",
 		inherit: '+',
 		jurisdiction: 'u',
 		announce: true,
@@ -276,9 +276,9 @@ exports.groups = {
 	},
 	'\u262D': {
 		ip: 's',
-		id: "pleb",
-		name: "pleb",
-		id: "pleb",
+		id: "total pleb",
+		name: "total pleb",
+		id: "total pleb",
 		alts: 's',
 		rank: 0
 	}
